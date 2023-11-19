@@ -1,0 +1,145 @@
+/*! purgecss start ignore */
+[*|href="/draws.svg#fan"] {
+  animation: spin 10s 0s linear infinite reverse;
+  transform-origin: 50% 50%;
+}
+/*! purgecss end ignore */
+
+// Header
+
+#body-inicio #header {
+  .image__inner {
+    filter: drop-shadow($shadow);
+  }
+}
+
+// Animations
+
+@keyframes slide-in-blurred-top {
+  0% {
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 0%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+#body-inicio #header {
+  .column--item-1 {
+    .image {
+      transform-origin: center;
+      animation: slide-in-blurred-top 1s 0s both;
+    }
+    .section__title {
+      animation: show-up .5s 1s both;
+    }
+    .subtitle {
+      animation: show-up .5s 1.125s both;
+    }
+  }
+  .column--item-2 {
+    .section__title {
+      animation: show-up .5s 1.25s both;
+    }
+    .subtitle {
+      animation: show-up .5s 1.375s both;
+    }
+    .description {
+      // p.h3 {
+      //   animation: show-up .5s 1.25s both;
+      // }
+      // p.subtitle {
+      //   animation: show-up .5s 1.375s both;
+      // }
+      p {
+        animation: show-up .5s 1.5s both;
+      }
+      .buttons {
+        animation: show-up .5s 1.625s both;
+      }
+    }
+  }
+}
+
+
+// Sections
+
+// #servicios .section__icon--top,
+// #precios .section__icon--top,
+// #pasos .step__icon {
+//   --duotone-main: #{ $link };
+//   --duotone-main-op: .5;
+//   --duotone-alt-op: 1;
+// }
+
+// Precios
+
+#precios {
+  .offer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: .5em 1.5em 0.15em;
+    transform: translate(39%, -10%) rotate(45deg);
+    svg {
+      color: inherit;
+    }
+  }
+  .column {
+    border-radius: calc(var(--column-padding) + var(--radius));
+    overflow: hidden;
+  }
+}
+
+// #precios {
+//   thead {
+//     tr {
+//       color: inherit;
+//       background-color: $white;
+//     }
+//     th {
+//       vertical-align: bottom;
+//       em {
+//         visibility: hidden;
+//       }
+//     }
+//     svg {
+//       fill: $main;
+//       font-size: 2em;
+//       margin: 0.25em 0;
+//     }
+//   }
+//   table {
+//     text-align: center;
+//     strong {
+//       color: $link;
+//     }
+//     td:first-child strong {
+//       color: $dark;
+//     }
+//   }
+//   .shadow + .shadow {
+//     > table th:first-child {
+//       @extend %font-base;
+//       vertical-align: inherit;
+//     }
+//   }
+// }
+
+
+// Blog
+
+.logo__image {
+  filter: drop-shadow($shadow);
+}

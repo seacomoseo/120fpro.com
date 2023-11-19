@@ -1,0 +1,20 @@
+id: logos
+title: Animación de Logos
+icon: fan
+description: |
+  Dale un toque especial a tus videos animando tu logo para que tus presentaciones luzcan más profesionales. Puedes utilizarlo en las presentaciones y publicaciones que quieras.
+more:
+  icon_type: top
+rows:
+- type: columns
+  design:
+    num: 1
+  items:
+  - image: https://youtu.be/CFxdNc1jpBM
+    more:
+      ratio: 1x1
+  - link: https://youtu.be/CFxdNc1jpBM
+    label: Ver en Youtube
+    more:
+      ofuscate: true
+      licon: youtube

@@ -1,0 +1,45 @@
+id: contacto
+title: Contacto
+subtitle: Sin compromiso
+color: white
+button: link
+size: sm
+icon: paper-plane
+rows:
+- type: contact
+  data:
+  - type: phone
+    label: 685 924 083
+  - type: whatsapp
+    button: link
+    label: 685 924 083
+  - type: mail
+    label: info120fpro@gmail.com
+    full: true
+  - type: address
+    active: false
+    name: 120fPro - Producción Audiovisual
+    streetAddress: Calle Gonzalo de Berceo, 26
+    postalCode: 30506
+    addressLocality: Molina de Segura
+    addressRegion: Murcia
+    addressCountry: España
+    coordinates: '{"type":"Point","coordinates":[-1.156120, 38.070130]}'
+  form:
+    fill_inputs: false
+    items:
+    - type: text
+      name: Nombre
+      required: true
+    - type: email
+      name: Email
+      required: true
+    - type: textarea
+      name: Mensaje
+      required: true
+  map:
+    active: false
+    link: https://g.page/r/CX0df3Y13KS5EAg
+    iframe: ''
+    flip_x: false
+    divider: ''

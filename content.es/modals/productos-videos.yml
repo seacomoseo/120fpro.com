@@ -1,0 +1,90 @@
+id: videos
+title: Vídeos
+size: md
+icon: film
+more:
+  icon_type: top
+rows:
+- type: columns
+  design:
+    num: 2
+    align: left
+    align_y: center
+  items:
+  - order: 1
+    image: https://youtu.be/ysR2EKp58i0
+    more:
+      ratio: 1x1
+  - title: Presentación de Servicios
+    order: 2
+    link: https://youtu.be/ysR2EKp58i0
+    label: Ver en Youtube
+    icon: film-simple
+    description: |
+      Te has preguntado, ¿Cuántas personas aún no conocen los servicios que ofreces? o ¿Dónde se encuentra tu centro? Por medio de una presentación audiovisual muestra tus cualidades, técnicas, metodología y contacta con más personas que están necesitando de tus servicios. Suelen tener una duración de 1 mín. como máximo para poder utilizarlas en redes sociales de rápida difusión.
+    more:
+      ofuscate: true
+      licon: youtube
+      icon_type: side
+  - order: 4
+    image: https://youtu.be/YoDcsMbqNVE
+    more:
+      ratio: 16x9
+  - title: Presentaciones Testimoniales
+    order: 3
+    link: https://youtu.be/YoDcsMbqNVE
+    label: Ver en Youtube
+    icon: face-viewfinder
+    description: |
+      Si tienes la posibilidad de contar con pacientes/ clientes que cuenten sus experiencias sinceras frente a la cámara, **¡APROVÉCHALO!** Transmite mucha confianza ver y escuchar el relato de una persona que se ha beneficiado de tus servicios y aún más, recomendándote.
+    more:
+      align_xl: right
+      ofuscate: true
+      licon: youtube
+      icon_type: side
+  - order: 5
+    image: https://youtu.be/RvlHqc-wW5g
+    more:
+      ratio: 16x9
+  - title: Presentaciones Personales Profesionales
+    order: 6
+    link: https://youtu.be/RvlHqc-wW5g
+    label: Ver en Youtube
+    icon: user-tie
+    description: |
+      También llamada Presentación Curricular, es una modalidad de presentación ideal para conectar rápidamente contigo, para dar a conocer tus capacitaciones, aptitudes, experiencias laborales, habilidades, técnicas que utilizas, etc. Es la mejor carta de presentación.
+    more:
+      ofuscate: true
+      licon: youtube
+      icon_type: side
+  - order: 8
+    image: https://youtu.be/l8arXOa2rl0
+    more:
+      ratio: 1x1
+  - title: Presentaciones Corporativas
+    order: 7
+    link: https://youtu.be/l8arXOa2rl0
+    label: Ver en Youtube
+    icon: film
+    description: |
+      Las presentaciones corporativas son muy útiles a la hora de dar a conocer tu centro u organización. Nos facilita trasmitir todo lo que ofrecemos a nuestros clientes, desde nuestro equipo profesional con sus diferentes especializaciones, los correspondientes servicios que se brindan, las instalaciones y su funcionamiento. Al abarcar más sectores que la presentación de servicios puede ser más extensa. En general, suelen tener una duración mayor al minuto, por lo que son ideales para utilizar en páginas web u otras plataformas.
+    more:
+      align_xl: right
+      ofuscate: true
+      licon: youtube
+      icon_type: side
+  - order: 9
+    image: https://youtu.be/9omeL22quPM
+    more:
+      ratio: 9x16
+  - title: Videos para RRSS
+    order: 10
+    link: https://youtu.be/9omeL22quPM
+    label: Ver en Youtube
+    icon: instagram
+    description: |
+      Hoy en día los medios digitales son la forma más rápida y masiva para hacerte conocer. Trabajamos para que tus videos sean de la mejor calidad. El rodaje y la edición serán acorde a tus necesidades para que puedas utilizarlos de la forma que quieras, en el formato que quieras y para el medio que quieras, puntos que dejaremos preestablecidos de antemano. Ya sean Reels, Historias de Instagram, Short de Youtube, etc.
+    more:
+      ofuscate: true
+      licon: youtube
+      icon_type: side

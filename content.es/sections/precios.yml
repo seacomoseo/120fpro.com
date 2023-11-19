@@ -1,0 +1,92 @@
+id: precios
+title: Precios
+subtitle: Diferentes planes para saber cuál se adapta a tus necesidades
+# description: |
+#   |            | icon-instagram <br> Redes <br> Sociales | icon-film-simple <br> Presen- <br> taciones | icon-film <br> Presen- <br> taciones | icon-fan <br> Animación <br> de Logo | Total <br> *.* | Oferta <br> *.* |
+#   |------------|-----------------------------------------|---------------------------------------------|--------------------------------------|--------------------------------------|----------------|-----------------|
+#   |            | 20-30 seg                               | ≤ 1 min                                     | 1-2 min                              |                                      |                |                 |
+#   | Desde      | **190 €**                               | **400 €**                                   | **450 €**                            | **120 €**                            |                |                 |
+#   | **Plan 1** |                                         |                                             | 1                                    | 1                                    | ~~570 €~~      | **550 €**       |
+#   | **Plan 2** | 2                                       |                                             | 1                                    |                                      | ~~830 €~~      | **650 €**       |
+#   | **Plan 3** | 2                                       |                                             | 1                                    | 1                                    | ~~950 €~~      | **750 €**       |
+#   | **Plan 4** | 4                                       |                                             | 1                                    |                                      | ~~1.000 €~~    | **800 €**       |
+#   | **Plan 5** |                                         | 1                                           | 1                                    |                                      | ~~850 €~~      | **650 €**       |
+#   | **Plan 6** |                                         | 1                                           | 1                                    | 1                                    | ~~970 €~~      | **750 €**       |
+#   | **Plan 7** |                                         |                                             | 1                                    | 1                                    | ~~570 €~~      | **550 €**       |
+#   | **Plan 8** | 10                                      |                                             |                                      |                                      |                | **1.100 €**     |
+
+#   | 1 short/vídeo <br> incluido | Youtube <br> icon-youtube |
+#   |-----------------------------|---------------------------|
+#   | **4-5 Vídeos/mes**          | Desde **800 €**           |
+#   | **≤ 3 Vídeos/mes**          | Desde **680 €**           |
+color: link-dark
+size: md
+icon: tags
+gradient: black
+more:
+  align: center
+  gradient_type: linear-b
+rows:
+- type: columns
+  design:
+    num: 3
+    color: white
+    link: '#contacto'
+    label: Contacto
+    licon: paper-plane
+  items:
+  - title: Plan Activación
+    price: 550 €
+    icon: gauge-low
+    description: |
+      - icon-film 1 Video Presentación<br>*(1-2 min)*
+      - icon-fan 1 Animación de Logo
+
+      icon-certificate<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Plan Fortalecimiento
+    price: 750 €
+    icon: gauge-high
+    description: |
+      - icon-film 1 Video Presentación<br>*(1-2 min)*
+      - icon-fan 1 Animación de Logo
+      - icon-instagram 2 Videos Redes Sociales<br>*(20-30 seg)*
+
+      icon-certificate<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Plan Potenciación
+    price: 800 €
+    icon: gauge-max
+    description: |
+      - icon-film 1 Video Presentación<br>*(1-2 min)*
+      - icon-instagram 4 Videos Redes Sociales<br>*(20-30 seg)*
+
+      icon-certificate<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Youtube
+    price: desde 680 €
+    icon: video
+    description: |
+      - icon-film Hasta 3 Vídeos Mensuales
+      - icon-youtube-shorts 1 Short de cada vídeo
+
+      icon-certificate<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Youtube +
+    price: desde 800 €
+    icon: video-plus
+    description: |
+      - icon-film 4-5 Vídeos Mensuales
+      - icon-youtube-shorts 1 Short de cada vídeo
+
+      icon-certificate<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Consulta por
+    description: |
+      - Descuento a alumnos de [INTECC](https://www.intecc.org/) ☝🏼
+      - Rodaje
+      - Diseño de Previsualizaciones
+      - Traducción y transcripción (inglés)
+      - Subtitulado en español
+    more:
+      color: link-dark

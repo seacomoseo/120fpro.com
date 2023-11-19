@@ -1,0 +1,41 @@
+id: resenas
+title: Reseñas
+subtitle: Dicen de nosotros
+color: link-dark
+size: md
+icon: comments
+gradient: black
+more:
+  gradient_type: linear-b
+rows:
+- type: reviews
+  design:
+    call: Ver más
+    num: 2
+    color: white
+    slider: true
+  items:
+  - title: Manu Jimenez Moure
+    description: |
+      Freddy, de 120fPro, es de los profesionales que te inspiran confianza desde un principio.
+
+      - Detalla el trabajo y los objetivos con máxima transparencia y claridad.
+      - Una atención al cliente muy cercana y espléndida.
+      - Preocupado de que cada detalle salga a la perfección.
+      - La grabación de los vídeos, así como su posterior edición, son de muy alta calidad y reflejan su máxima competencia de la que va acompañado su sello de identidad.
+
+      Enhorabuena Freddy, lástima que solo haya 5 estrellas, pues te te mereces 10. ¡Sigue así!
+  - title: Ángel Martínez Cánovas
+    description: |
+      Trabajo fantástico con un trato inmejorable.
+
+      Muchisimas gracias a todo el equipo de 120fPro.
+  - title: José Miguel Fernández
+    description: |
+      Gran profesional, sabe de esto, aporta soluciones y es original...
+
+      Recomendable 1000x100.
+- type: columns
+  items:
+  - description: |
+      [btn icon-star Google](https://g.page/r/CX0df3Y13KS5EAg/review "noindex")

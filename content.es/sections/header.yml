@@ -1,0 +1,28 @@
+id: header
+anchor: Producción Audiovisual
+color: black
+bg: freddy-deccia.png
+size: md
+gradient: link-dark
+more:
+  full_screen: true
+  opacity: 30
+  parallax: true
+  gradient_type: linear-tl
+rows:
+- type: columns
+  design:
+    num: 2
+    align_y: center
+  items:
+  - image: logo.png
+  - title: Producción Audiovisual
+    subtitle: Pasa a otro Nivel con el Poder de la Imagen y el Sonido
+    description: |
+      Soy productor audiovisual y fisioterapeuta, desde hace varios años estoy vinculado a profesionales del entrenamiento y la salud. No me tienes que explicar cosas que ya sabemos, conozco el medio, conozco la excelencia que queremos trasmitir en la práctica laboral.
+
+      Si eres parte de este sector has encontrado el sitio correcto para pasar a otro nivel con tu proyecto audiovisual.
+
+      [btn icon-plus Más](#principal)
+    more:
+      align: left

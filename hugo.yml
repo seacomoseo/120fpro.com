@@ -1,0 +1,32 @@
+baseURL: https://120fpro.com
+Paginate: 24
+buildFuture: false
+theme: [sansoul]
+params:
+  git_url: https://gitlab.com/120f/120fpro.com
+  netlify_name: 120f
+  netlify_id: db0416c4-fae5-4871-82c8-d268dcea6977
+  drive_link: https://drive.google.com/file/d/1zjBrYiXu82gRLJ-ndT_kNQecQxa_Tx5f
+  drive_mails: info120frames@gmail.com
+defaultContentLanguage: es
+disableLanguages: [en]
+languages:
+  es:
+    paginatePath: pagina
+    permalinks:
+      page:
+        pages: :slug
+        blog: :slug
+        events: evento/:year/:month/:day/:slug
+        products: producto/:slug
+        categories: categoria/:slug
+        tags: etiqueta/:slug
+        authors: autor/:slug
+      section:
+        pages: paginas
+        blog: blog
+        events: eventos
+        products: productos
+        categories: categorias
+        tags: etiquetas
+        authors: autores

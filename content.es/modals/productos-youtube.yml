@@ -1,0 +1,26 @@
+id: youtube
+title: Canal de Youtube
+icon: youtube
+description: |
+  Si quieres crearlo desde cero, aumentar la producción de los videos, que nos encarguemos de las filmaciones y/o de las ediciones de los contenidos, traducciones a inglés, transcripciones, subtitulado, o de la gestión del canal, consulta nuestras ofertas.
+
+  - icon-check Rodaje
+  - icon-check Edición (imagen, sonido)
+  - icon-check Subtitulación - Traducción
+  - icon-check Gestión del canal
+  - icon-check Diseño de previsualizaciones (miniaturas)
+more:
+  icon_type: top
+rows:
+- type: columns
+  design:
+    num: 1
+  items:
+  - image: https://youtu.be/ph4Q72eGYPc
+    more:
+      ratio: 16x9
+  - link: https://youtu.be/ph4Q72eGYPc
+    label: Ver en Youtube
+    more:
+      ofuscate: true
+      licon: youtube

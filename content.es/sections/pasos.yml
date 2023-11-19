@@ -1,0 +1,27 @@
+id: pasos
+title: Pasos
+subtitle: El procesos que seguimos
+color: white
+size: md
+icon: shoe-prints
+rows:
+- type: steps
+  design:
+    icon_size: 4
+  items:
+  - title: Primero lo Primero
+    icon: paper-plane
+    description: |
+      Ponte en contacto con nuestro equipo para recibir el asesoramiento que necesitas. Hacemos realidad tus ideas orientándote hacía tus objetivos.
+  - title: Establecer Objetivos
+    icon: crosshairs
+    description: |
+      Por medio de un formulario digital podrás definir las características con las que quieres que cuente el producto que deseas.
+  - title: Planificamos el Rodaje
+    icon: camcorder
+    description: |
+      Ya somos parte del equipo, ahora solo queda llevarlo a cabo.
+  - title: Planificamos la Difusión
+    icon: calendar-clock
+    description: |
+      Una vez que tenemos el contenido hecho planificamos la estrategia y los medios de difusión que necesitas para llegar a las personas que deseas llegar de acuerdo a tus objetivos.

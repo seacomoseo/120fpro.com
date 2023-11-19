@@ -1,0 +1,31 @@
+id: faq
+title: FAQ
+subtitle: Preguntas Frecuentes
+color: white
+size: md
+icon: circle-question
+rows:
+- type: collapsible
+  items:
+  - title: ¿Puedo hacerlo desde fuera de España o de otras regiones de España?
+    description: Sí, tenemos 2 opciones, trabajar con material ya filmado y nos encargamos de la edición, o concretar viáticos para realizar el trabajo completo.
+  - title: ¿Necesita ser en forma presencial la entrega del material?
+    description: No, lo hacemos todo por medio digital.
+  - title: ¿Necesita ser en forma presencial la planificación de los trabajos?
+    description: No necesariamente, lo ideal es hacer una entrevista, que puede ser en forma presencial u online.
+  - title: ¿Las animaciones del logo incluyen el diseño del logo?
+    description: No, solo la animación. Si necesitas crear tu propio logo tienes que consultar.
+  - title: ¿Qué duración tienen los videos?
+    description: Depende de cada tipo, lo que quiere trasmitir, para la plataforma que se va a utilizar, etc.
+  - title: ¿Puedo hacer otra combinación dentro de los productos que tienen?
+    description: Sí, claro. Nos comentas tu idea y formulamos las mejores combinaciones.
+  - title: ¿Cuánto tiempo demoran las entregas?
+    description: Depende de la complejidad de cada contenido. En el momento de la entrevista inicial podemos hacer un cálculo aproximado teniendo en cuenta todos los factores.
+  - title: ¿Tiene costo adicional si quiero hacer un trabajo en forma urgente?
+    description: Sí, los trabajos urgentes tienen costo adicional.
+  - title: ¿Cuántas instancias de corrección tengo?
+    description: Una vez entregado el producto al cliente, éste tiene una instancia para hacer todas las observaciones que considere pertinentes.
+  - title: ¿Tiene costo adicional si agrego correcciones - modificaciones de último momento?
+    description: Sí, tiene costo adicional. Las modificaciones durante el proceso pueden complicar mucho el trabajo, el producto final y el tiempo programado, por esa razón le damos real importancia a la entrevista previa a la puesta en marcha. Por lo que sugerimos tener las cosas establecidas desde un principio para no tener cambios en el presupuesto.
+  - title: ¿En qué plazo se entregan los trabajos?
+    description: Luego de realizado el rodaje o recibido el material, aproximadamente una semana para la edición.

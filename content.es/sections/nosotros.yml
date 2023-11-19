@@ -1,0 +1,23 @@
+id: nosotros
+title: Nosotros
+subtitle: 120fPro
+color: light
+size: md
+icon: circle-info
+rows:
+- type: columns
+  design:
+    num: 2
+  items:
+  - bg: fondo.jpg
+    more:
+      align_y: strech
+  - description: |
+      Somos una productora audiovisual que nos especializamos en brindar un servicio personalizado a profesionales del área de la salud y el entrenamiento físico.
+
+      El hecho de ser fisioterapeuta y productor audiovisual, con trayectoria en diferentes campos de la rehabilitación y estar vinculado al medio del entrenamiento físico por varios años, hace que nuestro equipo...
+
+      [btn icon-plus Más](#nosotros-mas)
+    more:
+      align: left
+      align_y: center

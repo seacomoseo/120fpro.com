@@ -1,0 +1,31 @@
+id: productos
+title: Productos
+subtitle: Las mejores herramientas para conseguir los mejores rendimientos
+description: Coordinamos una entrevista para establecer los objetivos y ajustar detalles, redactar un briefing y planificar el rodaje.
+color: light
+size: md
+icon: camcorder
+more:
+  align: center
+rows:
+- type: columns
+  design:
+    num: 3
+    color: white
+  items:
+  - title: Vídeos
+    # description: |
+    #   - icon-check Presentaciones
+    #     - icon-check de Servicios
+    #     - icon-check Testimoniales
+    #     - icon-check Personales Profesionales
+    #     - icon-check Corporativas
+    #   - icon-check Videos para RRSS
+    link: '#videos'
+    icon: film
+  - title: Animación de Logos
+    link: '#logos'
+    icon: fan
+  - title: Canal de Youtube
+    link: '#youtube'
+    icon: youtube

@@ -37,31 +37,31 @@
       animation: slide-in-blurred-top 1s 0s both;
     }
     .section__title {
-      animation: show-up .5s 1s both;
+      animation: show-from .5s 1s both;
     }
     .subtitle {
-      animation: show-up .5s 1.125s both;
+      animation: show-from .5s 1.125s both;
     }
   }
   .column--item-2 {
     .section__title {
-      animation: show-up .5s 1.25s both;
+      animation: show-from .5s 1.25s both;
     }
     .subtitle {
-      animation: show-up .5s 1.375s both;
+      animation: show-from .5s 1.375s both;
     }
     .description {
       // p.h3 {
-      //   animation: show-up .5s 1.25s both;
+      //   animation: show-from .5s 1.25s both;
       // }
       // p.subtitle {
-      //   animation: show-up .5s 1.375s both;
+      //   animation: show-from .5s 1.375s both;
       // }
       p {
-        animation: show-up .5s 1.5s both;
+        animation: show-from .5s 1.5s both;
       }
       .buttons {
-        animation: show-up .5s 1.625s both;
+        animation: show-from .5s 1.625s both;
       }
     }
   }

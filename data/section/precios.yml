@@ -1,0 +1,72 @@
+name: Precios
+id: precios
+color: cta-dark
+size: md
+fade: black
+fade_to: b
+boxes:
+- title: Precios
+  sub: Diferentes planes para saber cuál se adapta a tus necesidades
+  icon: sell
+  align: center
+  box:
+    color: white
+    url: '#contacto'
+    label: Contacto
+    pin: send
+    cols: 3
+  boxes:
+  - title: Plan Activación
+    price: 550 €
+    icon: rocket_launch
+    md: |
+      - ::theaters:: 1 Video Presentación<br>*(1-2 min)*
+      - ::toys_fan:: 1 Animación de Logo
+
+      ::verified::<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Plan Fortalecimiento
+    price: 750 €
+    icon: fitness_center
+    md: |
+      - ::theaters:: 1 Video Presentación<br>*(1-2 min)*
+      - ::toys_fan:: 1 Animación de Logo
+      - ::brand:instagram:: 2 Videos Redes Sociales<br>*(20-30 seg)*
+
+      ::verified::<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Plan Potenciación
+    price: 800 €
+    icon: speed
+    md: |
+      - ::theaters:: 1 Video Presentación<br>*(1-2 min)*
+      - ::brand:instagram:: 4 Videos Redes Sociales<br>*(20-30 seg)*
+
+      ::verified::<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Youtube
+    price: desde 680 €
+    icon: videocam
+    md: |
+      - ::theaters:: Hasta 3 Vídeos Mensuales
+      - ::brand:youtubeshorts:: 1 Short de cada vídeo
+
+      ::verified::<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Youtube +
+    price: desde 800 €
+    icon: video_call
+    md: |
+      - ::theaters:: 4-5 Vídeos Mensuales
+      - ::brand:youtubeshorts:: 1 Short de cada vídeo
+
+      ::verified::<br>OFERTA<br>LANZAMIENTO
+      {.offer}
+  - title: Consulta por
+    md: |
+      - Descuento a alumnos de [INTECC](https://www.intecc.org/) ☝🏼
+      - Rodaje
+      - Diseño de Previsualizaciones
+      - Traducción y transcripción (inglés)
+      - Subtitulado en español
+    color: cta-dark

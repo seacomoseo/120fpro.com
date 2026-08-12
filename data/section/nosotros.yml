@@ -1,0 +1,38 @@
+name: Nosotros
+id: nosotros
+color: light
+size: md
+boxes:
+- title: Nosotros
+  sub: 120fPro
+  icon: info
+  box:
+    cols: 2
+  boxes:
+  - bi: /u/fondo.jpg
+    align_y: strech
+  - md: |
+      Somos una productora audiovisual que nos especializamos en brindar un servicio personalizado a profesionales del área de la salud y el entrenamiento físico.
+
+      El hecho de ser fisioterapeuta y productor audiovisual, con trayectoria en diferentes campos de la rehabilitación y estar vinculado al medio del entrenamiento físico por varios años, hace que nuestro equipo...
+
+      [[::add:: Más]](#nosotros-mas)
+    align: left
+    align_y: center
+modal:
+  color: white
+  icon_pos: side
+modals:
+- id: nosotros-mas
+  title: 120fPro
+  sub: Sobre Nosotros
+  img: /u/freddy.jpg
+  icon: info
+  md: |
+    Somos una productora audiovisual que nos especializamos en brindar un servicio personalizado a profesionales del área se la salud y el entrenamiento físico.
+
+    El hecho de ser fisioterapeuta y productor audiovisual, con trayectoria en diferentes campos de la rehabilitación y estar vinculado al medio del entrenamiento físico por varios años, hace que nuestro equipo conozca tanto a las y los profesionales de la salud como del entrenamiento. Esto es algo que destaca a la hora de establecer parámetros y saber cuál es el mensaje que se quiere compartir.
+
+    Consideramos fundamental el trato directo con nuestros clientes, creemos que una buena comunicación es necesaria para saber cuáles son sus necesidades y valores que desean trasmitir y entender cuál es la mejor forma de hacerlo.
+
+    Nuestro equipo está conformado por diferentes profesionales que se encargan de todo lo que puedas necesitar para lanzar públicamente tus servicios o productos. Desde el diseño gráfico de tu logo, la producción de contenidos audiovisuales, el desarrollo y posicionamiento de la página web y la comunicación por medio de redes sociales.

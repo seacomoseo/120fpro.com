@@ -1,0 +1,141 @@
+name: Productos
+id: productos
+color: light
+size: md
+boxes:
+- title: Productos
+  sub: Las mejores herramientas para conseguir los mejores rendimientos
+  md: Coordinamos una entrevista para establecer los objetivos y ajustar detalles, redactar un briefing y planificar el rodaje.
+  icon: videocam
+  align: center
+  box:
+    color: white
+    cols: 3
+    pin: add
+  boxes:
+  - title: Vídeos
+    url: '#videos'
+    icon: theaters
+  - title: Animación de Logos
+    url: '#logos'
+    icon: toys_fan
+  - title: Canal de Youtube
+    url: '#youtube'
+    icon: brand:youtube
+modal:
+  color: white
+  icon_pos: side
+modals:
+- id: videos
+  title: Vídeos
+  size: md
+  icon: theaters
+  icon_pos: top
+  box:
+    align: left
+    align_y: center
+    cols: 2
+  boxes:
+  - order: 1
+    img: https://youtu.be/ysR2EKp58i0
+    ratio: 1/1
+  - title: Presentación de Servicios
+    order: 2
+    url: https://youtu.be/ysR2EKp58i0
+    label: Ver en Youtube
+    icon: movie_info
+    md: |
+      Te has preguntado, ¿Cuántas personas aún no conocen los servicios que ofreces? o ¿Dónde se encuentra tu centro? Por medio de una presentación audiovisual muestra tus cualidades, técnicas, metodología y contacta con más personas que están necesitando de tus servicios. Suelen tener una duración de 1 mín. como máximo para poder utilizarlas en redes sociales de rápida difusión.
+    lock: true
+    pin: brand:youtube
+    icon_pos: side
+  - order: 4
+    img: https://youtu.be/YoDcsMbqNVE
+    ratio: 16/9
+  - title: Presentaciones Testimoniales
+    order: 3
+    url: https://youtu.be/YoDcsMbqNVE
+    label: Ver en Youtube
+    icon: ar_on_you
+    md: |
+      Si tienes la posibilidad de contar con pacientes/ clientes que cuenten sus experiencias sinceras frente a la cámara, **¡APROVÉCHALO!** Transmite mucha confianza ver y escuchar el relato de una persona que se ha beneficiado de tus servicios y aún más, recomendándote.
+    align_vl: right
+    lock: true
+    pin: brand:youtube
+    icon_pos: side
+  - order: 5
+    img: https://youtu.be/RvlHqc-wW5g
+    ratio: 16/9
+  - title: Presentaciones Personales Profesionales
+    order: 6
+    url: https://youtu.be/RvlHqc-wW5g
+    label: Ver en Youtube
+    icon: business_center
+    md: |
+      También llamada Presentación Curricular, es una modalidad de presentación ideal para conectar rápidamente contigo, para dar a conocer tus capacitaciones, aptitudes, experiencias laborales, habilidades, técnicas que utilizas, etc. Es la mejor carta de presentación.
+    lock: true
+    pin: brand:youtube
+    icon_pos: side
+  - order: 8
+    img: https://youtu.be/l8arXOa2rl0
+    ratio: 1/1
+  - title: Presentaciones Corporativas
+    order: 7
+    url: https://youtu.be/l8arXOa2rl0
+    label: Ver en Youtube
+    icon: theaters
+    md: |
+      Las presentaciones corporativas son muy útiles a la hora de dar a conocer tu centro u organización. Nos facilita trasmitir todo lo que ofrecemos a nuestros clientes, desde nuestro equipo profesional con sus diferentes especializaciones, los correspondientes servicios que se brindan, las instalaciones y su funcionamiento. Al abarcar más sectores que la presentación de servicios puede ser más extensa. En general, suelen tener una duración mayor al minuto, por lo que son ideales para utilizar en páginas web u otras plataformas.
+    align_vl: right
+    lock: true
+    pin: brand:youtube
+    icon_pos: side
+  - order: 9
+    img: https://youtu.be/9omeL22quPM
+    ratio: 9/16
+  - title: Videos para RRSS
+    order: 10
+    url: https://youtu.be/9omeL22quPM
+    label: Ver en Youtube
+    icon: brand:instagram
+    md: |
+      Hoy en día los medios digitales son la forma más rápida y masiva para hacerte conocer. Trabajamos para que tus videos sean de la mejor calidad. El rodaje y la edición serán acorde a tus necesidades para que puedas utilizarlos de la forma que quieras, en el formato que quieras y para el medio que quieras, puntos que dejaremos preestablecidos de antemano. Ya sean Reels, Historias de Instagram, Short de Youtube, etc.
+    lock: true
+    pin: brand:youtube
+    icon_pos: side
+- id: logos
+  title: Animación de Logos
+  icon: toys_fan
+  md: |
+    Dale un toque especial a tus videos animando tu logo para que tus presentaciones luzcan más profesionales. Puedes utilizarlo en las presentaciones y publicaciones que quieras.
+  icon_pos: top
+  box:
+    cols: 1
+  boxes:
+  - img: https://youtu.be/CFxdNc1jpBM
+    ratio: 1/1
+  - url: https://youtu.be/CFxdNc1jpBM
+    label: Ver en Youtube
+    lock: true
+    pin: brand:youtube
+- id: youtube
+  title: Canal de Youtube
+  icon: brand:youtube
+  md: |
+    Si quieres crearlo desde cero, aumentar la producción de los videos, que nos encarguemos de las filmaciones y/o de las ediciones de los contenidos, traducciones a inglés, transcripciones, subtitulado, o de la gestión del canal, consulta nuestras ofertas.
+
+    - ::check:: Rodaje
+    - ::check:: Edición (imagen, sonido)
+    - ::check:: Subtitulación - Traducción
+    - ::check:: Gestión del canal
+    - ::check:: Diseño de previsualizaciones (miniaturas)
+  icon_pos: top
+  box:
+    cols: 1
+  boxes:
+  - img: https://youtu.be/ph4Q72eGYPc
+    ratio: 16/9
+  - url: https://youtu.be/ph4Q72eGYPc
+    label: Ver en Youtube
+    lock: true
+    pin: brand:youtube

@@ -1,0 +1,20 @@
+menu:
+  img: /u/base/logo.svg
+  items: []
+callnows: []
+footer:
+  div: wavy
+  fade: black
+  fade_to: b
+  space: 2
+  dots:
+    - url: https://g.page/r/CX0df3Y13KS5EAg
+    - url: https://www.instagram.com/120fpro/
+    - url: https://www.youtube.com/@120fPro
+  md: |
+    - ::copyright::        {{< internal-link index >}}
+    - ::balance::          {{< internal-link legal >}}
+    - ::encrypted::        {{< internal-link privacy >}}
+    - ::cookie::           {{< internal-link cookies >}}
+    - ::brand:seacomoseo:: {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/)
+    {.list-inline}

@@ -40,7 +40,7 @@ org:
   services: []
 tpl:
   sections:
-  - file: header
+  - file: _hero
   - file: productos
   - file: precios
   - file: pasos

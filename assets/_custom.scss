@@ -7,9 +7,9 @@
 }
 /*! purgecss end ignore */
 
-// Header
+// Hero
 
-#body-home #header {
+#body-home #hero {
   .img__in {
     filter: drop-shadow(variables.$shadow);
   }
@@ -32,7 +32,7 @@
   }
 }
 
-#body-home #header {
+#body-home #hero {
   .box--1 {
     .img {
       transform-origin: center;
